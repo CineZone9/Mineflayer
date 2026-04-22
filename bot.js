@@ -4,7 +4,7 @@ const { pathfinder, Movements, goals } = require('mineflayer-pathfinder');
 // ─── Konfiguration ────────────────────────────────────────────────────────────
 const CONFIG = {
   host: process.env.HOST || 'RobGie2010-sLMB.aternos.me',
-  port: parseInt(process.env.PORT) || 27982,
+  port: parseInt(process.env.PORT) || 10000,
   username: process.env.USERNAME || 'PlayerAI',
   version: process.env.VERSION || '1.20.1',
 

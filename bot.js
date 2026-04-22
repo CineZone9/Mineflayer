@@ -3,10 +3,10 @@ const { pathfinder, Movements, goals } = require('mineflayer-pathfinder');
 
 // ─── Konfiguration ────────────────────────────────────────────────────────────
 const CONFIG = {
-  host: process.env.HOST || 'dein-server.aternos.me',
-  port: parseInt(process.env.PORT) || 25565,
-  username: process.env.USERNAME || 'AternosBot',
-  version: process.env.VERSION || '1.20.1',
+  host: process.env.HOST || 'RobGie2010-sLMB.aternos.me',
+  port: parseInt(process.env.PORT) || 27982,
+  username: process.env.USERNAME || 'Player',
+  version: process.env.VERSION || '1.20.11',
 
   // Bewegungseinstellungen
   wanderRadius: 15,        // Wie weit der Bot maximal läuft (Blöcke)
